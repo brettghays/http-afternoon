@@ -14,12 +14,32 @@ class NewUser extends Component{
     }
     
     // insert addUser
-
+    addUser(){
+        axios.post(`/api/users`, this.state)
+        .then(res => {
+            let user = res.data;
+            this.props.history.push(`/user/${user.id}`)
+        })
+        .catch(err => console.log(err))
+    }
 
     // insert updateUser    
+    updateUser(){
+        axios.put(`/api/blog/${this.props.match.params.id}`, this.state)
+        .then(res => {
+            let user = res.data;
+            this.props.history.push(`/user/${user.id}`)
+        })
+        .catch(err => console.log(err))
+    }
 
 
     // insert deleteUser
+    deleteUser(){
+        axios.delete(`/api/blog/${this.props.match.params.id}`, this.state)
+        .then(res => this.props.history.push(`/search/`))
+        .catch(err => console.log(err))
+    }
 
 
     render(){

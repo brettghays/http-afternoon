@@ -51,6 +51,11 @@ class Edit extends Component {
         .then(res => this.props.history.push('/search'))
         .catch(err => console.log(err))
     }
+    deletePost() {
+        axios.delete(`/api/blogs/${this.props.match.params.id}`).then(results => {
+            this.props.history.push('/search')
+        }).catch(console.log)
+    }
 
     
     render() {
