@@ -1,16 +1,6 @@
 {
   "blogs": [
     {
-      "id": 0,
-      "name": "Andrew Garvin",
-      "userID": 0,
-      "image": "http://delivery.gettyimages.com/xr/109072999.jpg?v=1&c=IWSAsset&k=3&d=77BFBA49EF87892102A727B1636DE2E61B7D42B8BC1F6B9121A86BE89F8F9103331E400E51A7E00DE30A760B0D811297",
-      "title": "Ode To Brennys Cow",
-      "subTitle": "A Gold-starred Haiku",
-      "text": "Hello.\n\n I'd like to tell the story of Farmer Brenny, and his cow.\n\n Years ago, in the land and time of St. Siaosi, there lived a man named Mr. Brenny. This man was a young peddler, who's only desire was to become a merchant. Though fortune did not always smile upon him, he felt deep within his heart that someday, he would do great things.\n\n On the ten and seventh day, of the seventh month, in the Year of our Lord, two thousand and seventeen, Mr. Brenny's life was about to change. He did not know this, but on this very day, he would meet Mrs. Anne Drue.\n\n Mrs. Drue was a quaint individual, who was looking for someone to run her family's farm, so that she could travel the world. Upon meeting Mr. Brenny, Anne knew that her search was over.\n\n Anne decided to approach Brennys uncle, Lord Lloyd of Alans Mill, with the intent to hire Brenny for the next seven years. Upon signing the contract, Anne and Mr. Brenny were on their way.\n\n Seven years hence, our young adventurers Anne and Mr. Brenny decided to part ways, after the Kings Captain, Lt. Jaime Robberson moved the battleground of the war to their old-town farm.\n\n\nThe end.",
-      "featured": true
-    },
-    {
       "id": 1,
       "name": "Brennon Schow",
       "userID": 2,
@@ -206,14 +196,11 @@
       "featured": false
     },
     {
-      "id": 21,
-      "name": "Andi Platter",
-      "userID": 8,
-      "image": "https://cdn-media-2.lifehack.org/wp-content/files/2017/05/24045853/ariel_facepalm_at_scuttle_s_singing_by_arielfan90-daw1w7r.gif",
-      "title": "What is in my pants?!",
+      "title": "Why is it called this?",
       "subTitle": "A short embarrassing story",
+      "image": "https://cdn-media-2.lifehack.org/wp-content/files/2017/05/24045853/ariel_facepalm_at_scuttle_s_singing_by_arielfan90-daw1w7r.gif",
       "text": "HA okay, so this is a story all about how I embarrassed myself at camp bow wow. Wish I could make that song last for this whole story but no. So I worked at a doggie daycare called camp bow wow a few years ago. There was a guy who worked there as well and he was attractive. \n\n We usually traded shifts so when I came in he was finishing his shift. I had just done my laundry and I pulled my pants out of the dryer and put them on and went to work. When I got there cute boy was about to leave and we chatted for a bit before he did. I went to the back to help out and I touched the back of my leg.\n\n\n. \"OH MY GOSH WHAT IS IN MY PANTS?! I just talked to cute boy for like 10 minutes with a lump on my leg!\" I was so embarrassed and a little concerned. I've never had a tennis ball sized lump on my leg before. Worried I ran to the bathroom and found what was causing this lump... it was a freaking sock. \n\n\n\n How did I not notice there was a balled up sock in my pants? Still not sure, still embarrassed. The End",
-      "featured": true
+      "id": 21
     },
     {
       "title": "Testing",
@@ -221,6 +208,13 @@
       "image": "https://unsplash.it/700/400",
       "text": "dasj;lfksjfl;aksdjflaskj",
       "id": 22
+    },
+    {
+      "title": "Sample post",
+      "subTitle": "this is a test",
+      "image": "",
+      "text": "yay blogging!",
+      "id": 23
     }
   ],
   "users": [

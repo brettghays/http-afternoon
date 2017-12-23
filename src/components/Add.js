@@ -28,7 +28,8 @@ class Add extends Component {
             text: this.state.text
         }
         axios.post(`/api/blogs`, body)
-        .then(res => console.log(res))
+            .then(res => this.props.history.push(`/blog/${res.data.id}`))
+            .catch(err => console.log(err))
     }
     
     

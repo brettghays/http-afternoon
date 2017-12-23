@@ -16,7 +16,7 @@ class Blog extends Component{
     // insert componentWillMount method
     componentWillMount(){
         axios.get(`/api/blog/${this.props.match.params.id}`)
-        .then(res => console.log(res.data))
+        //.then(res => console.log(res.data))
         .then(res => this.setState({blog: res.data}))
         .catch(err => console.log(err))
     }
