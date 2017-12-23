@@ -22,7 +22,7 @@ class Home extends Component{
             featured: res.data,
             index: (~~(Math.random() * res.data.length) + 0),
             posts: res.data
-        }));
+        }))
         .catch(console.log)
     }
     
